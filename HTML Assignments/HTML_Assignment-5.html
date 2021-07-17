@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Layout-5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            overflow: hidden;
+        }
+        header, footer, nav{
+            height: 80px;
+            background-color:skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            background-color:  rgb(194, 241, 194);
+        }
+        section{
+            display: flex;
+        }
+        .introcpy{
+            height: 410px;
+            width: 70%;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        article{
+            width: 30%;
+        }
+        article div{
+            height: 350px;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        article aside{
+            width: 100%;
+            margin: 0;
+        }
+        aside{
+            height: 50px;
+            width: 30%;
+            background-color: yellowgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .morecpy{
+            height: 50px;
+            width: 70%;
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section, div, aside, article{
+            margin: 5px;
+        }
+        nav{
+            margin: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header</header>
+    <main>
+        <section>
+            <div class="introcpy">Intro Copy</div>
+            <article>
+                <div>Hero Image</div>
+                <aside>Call to action</aside>
+            </article>
+        </section>
+        <nav>
+            Features
+        </nav>
+        <section>
+            <div class="morecpy">more Copy</div>
+            <aside>Call to action</aside>
+        </section>
+    </main>
+    <footer>Footer</footer>
+    
+</body>
+</html>

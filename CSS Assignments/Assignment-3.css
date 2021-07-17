@@ -1,0 +1,63 @@
+ul{
+    background-color: rgb(61, 59, 59);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    float: right;
+}
+li a:hover{
+    background-color: black;
+}
+.left{
+    float: left !important;
+}
+.home{
+    background-color: aqua;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    background-color: pink;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    background-color: rgb(243, 243, 50);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    background-color: violet;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    background-color:rgb(66, 245, 66);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

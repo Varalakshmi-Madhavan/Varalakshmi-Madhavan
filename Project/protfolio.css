@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+
+body {
+    font-family: 'Sen', sans-serif !important;
+    background: black;
+}
+label {
+    font-family: 'Sen', sans-serif !important;
+}
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+h2 {
+    font-size: 55px;
+}
+.bg-transparent {
+    height: 100vh;
+}
+.bg-transparent div:nth-child(1) {
+    background: black;
+}
+.bg-transparent div:nth-child(2) {
+    background: rgb(24, 24, 35);
+}
+.main > div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main span {
+    color: rgba(255, 255, 255, 0.5);
+}
+.main .head-text-left {
+    margin-left: -50px;
+}
+.light-grey-color {
+    color: #8491a0;
+}
+.work .inner .work-numbers {
+    font-size: 7rem;
+    margin: 0;
+    display: inline;
+    line-height: 7rem;
+}
+.work .inner .work-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.article .text-content {
+    background-color: rgb(255, 243, 229);
+}
+.article img {
+    max-width: 100%;
+}
+.article p {
+    color: #5b6876;
+    font-size: 18px;
+    text-align: justify;
+}
+input, textarea {
+    background: #181823 !important;
+    border: none !important;
+    border-radius: unset !important;
+    color: white !important;
+}
+.contact form .custom-btn{
+    background-color: #5221e6;
+    color: white;
+}
+.navbar {
+    padding: 0 !important;
+    border-top: 6px solid #5221e6;
+}
+.nav-item:nth-child(3) {
+    background: #5221e6;
+}
+.btn{
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    font-family: 'Sen', sans-serif !important;
+}
+.btn:hover{
+    background-color: #5221e6;
+    padding: 15px 20px;
+    border-bottom: none;
+    color: white;
+}
+.btnn{
+    background-color: #5221e6;
+    padding:14px 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btnwrap{
+    height: 232px;
+    padding: 100px 250px;
+}
+.prjbtn{
+    padding: 25px 50px;
+    color: white;
+    border: 2px solid #5221e6;
+    font-family: 'Sen', sans-serif !important;
+    text-decoration: none;
+    transition: padding 350ms;
+}
+.prjbtn:hover{
+    background-color: #5221e6;
+    box-shadow: 0 4px 8px 0 rgba(79, 62, 238, 0.5), 0 6px 20px 0  rgba(79, 62, 238, 0.5);
+    color: white;
+    padding: 20px 40px;
+}
+.card{
+    border: none;
+    margin-top: 50px;
+}
+.cardBG{
+    background-color: rgb(24, 24, 35);
+}
+p{
+    font-size: 18px;
+}
+.logo{
+    width: 24vw;
+    height: 140px;
+    border: 0.5px solid rgb(61, 60, 60);
+}
+.logo img{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+footer{
+    height: 422px;
+    padding: 80px 72px;
+    margin-top: 100px;
+}
+.foot{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sen', sans-serif !important;
+    padding: 15px 20px;
+}
+footer p{
+    display: block;
+    margin-top: 200px;
+    margin-left: -100px;
+    font-family: 'Sen', sans-serif !important;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main .head-text-left {
+        margin-left: auto;
+        margin-top: 0px !important;
+    }
+    .bg-transparent {
+        height: 90vh;
+    }
+    .main > div {
+        margin: 0px 30px;
+    }
+}
